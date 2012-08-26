@@ -1,0 +1,49 @@
+#Frequency for ruin spawns(This it out of 300).
+#For example, if you put 200/300, there would be a 2/3 chance of spawning a ruin in each chunk.
+ruin-frequency: 20
+ruins-enabled: true
+
+#Is glowstone enabled?
+glowstone-enabled: true
+
+#Are ores enabled?
+ores-enabled: true
+
+#Shroom forests
+shrooms-enabled: true
+
+#the chance out of 100 that a shroom will spawn when the chunk gens.
+shroom-spawn-chance: 75
+min-shrooms-per-chunk: 0
+max-shrooms-per-chunk: 7
+
+#Says if shrooms can be planted ontop of each other
+derpy-shrooms: true
+
+#Netherwart
+#This defines the max radius that a circle of netherwart can be.
+max-netherwart-circle-radius: 3
+
+#Is netherwart enabled?
+netherwart-enabled: true
+
+#Don't screw with this section unless you know what your doing.
+scale: 35.0
+threshold: 0.0
+
+#Ruin chests & blaze spawners
+#This is the chance out of 100 that a blaze spawner will spawn with the ruins
+blaze-spawner-chance: 10
+chest-spawn-chance: 45
+max-itemtypes-per-chest: 3
+
+#Possible items to be held in the chests.
+#Format is as follows: itemid,amount,rarity %. Note, this can go past 100%.
+items:
+ - 348,20,5
+ - 89,5,5
+ - 377,5,5
+ - 378,2,5
+ - 112,20,20
+ - 1,64,70
+ - 260,5,50
