@@ -89,7 +89,7 @@ public class OrePopulator extends BlockPopulator {
 		int oreAppear = rand.nextInt(6);
 		if(oreAppear <= 6)
 		{
-			int oreType = rand.nextInt(300);
+			int oreType = rand.nextInt(350);
 			if(oreType < 20)
 			{
 				return;
@@ -113,6 +113,10 @@ public class OrePopulator extends BlockPopulator {
 			if(oreType > 250 && oreType < 300)
 			{
 				generate(src, rand, rand.nextInt(15), rand.nextInt(90 - 30 + 1) + 30, rand.nextInt(15),30, Material.SOUL_SAND.getId());
+			}
+			if(oreType > 250 && oreType < 350)
+			{
+				generate(src, rand, rand.nextInt(15), rand.nextInt(90 - 30 + 1) + 30, rand.nextInt(15),30, Material.QUARTZ_ORE.getId());
 			}
 		}
 		}
